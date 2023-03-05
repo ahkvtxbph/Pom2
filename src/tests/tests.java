@@ -35,7 +35,7 @@ public class tests extends baseTest {
         signUp.signUpButton();
         Thread.sleep(750);
         status=readFrom("buymeEmail",path,file);
-
+      //  signUp.buymeEmail("a@gmail.com");
         signUp.buymeEmail("a@a");
         Thread.sleep(750);
         signUp.buttonReg();
